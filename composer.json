@@ -1,6 +1,5 @@
 {
     "name": "jardisport/dbschema",
-    "version": "1.0.0",
     "description": "This package provides dbSchema interfaces for a domain driven design approach",
     "type": "library",
     "license": "MIT",
