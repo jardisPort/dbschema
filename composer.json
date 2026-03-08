@@ -1,0 +1,39 @@
+{
+    "name": "jardisport/dbschema",
+    "description": "This package provides dbSchema interfaces for a domain driven design approach",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Jardis Development",
+            "email": "jardisDev@headgent.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0.4",
+        "squizlabs/php_codesniffer": "^3.11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JardisPort\\DbSchema\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/jardisPort/dbschema",
+    "support": {
+        "issues": "https://github.com/jardisPort/dbschema/issues",
+        "email": "jardisCore@headgent.dev"
+    },
+    "keywords": [
+        "database",
+        "schema",
+        "interfaces",
+        "JardisPort",
+        "Headgent",
+        "DDD"
+    ]
+}
